@@ -2,122 +2,150 @@
 
 ### Problem 1
 
-**Write a function that finds all the prime numbers uptill using list comrehension.**
+**Write a function that finds all the prime numbers.**
 
 ```python
-def find_primes_with_list_comprehend(n):
+def find_primes(n):
     return primes
 ```
 
 
 ### Problem 2
 
-**Write a function to flatten a list.**
+**Write a function to generate `n` fibonacci numbers**
 
 ```python
-def flatten_list(list):
-    return flattened_list
+def fibonacci(n):
+    return fibonacci_numbers
 ```
 
 ```python
->>> flatten_list([1, [2, 3]])
-[1, 2, 3]
+>>> fibonacci(5)
+[1, 1, 2, 3, 5]
 ```
 
 ### Problem 3
 
-**Write a function to split a large csv file based on based category.**
+**Write a function that reads from csv files and display data as list of dictionaries.**
 
 ```python
-def split_csv(filename, ['city']):
-    return pune.csv, mumbai.csv
+def read_csv(filename):
+    return csv_data
+```
+
+```python
+>>> read_csv('employee.csv')
+[
+    {'name': 'John', 'age': 25, 'role': 'Frontend Developer'},
+    {'name': 'David', 'age': 28, 'role': 'Backend Developer'}
+]
 ```
 
 ### Problem 4
 
-**Write a function to convert dict of lists into list of dicts**
+**Write a function that stores the given data in json file.**
 
 ```python
-def list_of_dicts(data):
-    return dict_list
+def store_in_json(data):
+    return json_file.json
 ```
 
 ```python
->>> list_of_dicts({'name': ['john', 'maria'], 'age': [22, 24]})
-[{'name': 'john', 'age': 22}, {'name': 'maria', 'age': 24}]
+>>> data = [
+...   {'name': 'John', 'age': 25, 'role': 'Frontend Developer'},
+...   {'name': 'David', 'age': 28, 'role': 'Backend Developer'}
+...]
+...
+>>>
+>>> store_in_json(data)
+employee.json
 ```
 
 ### Problem 5
 
-**Write a function to check whether a number in the range of numbers is prime or non-prime using dict comprehension**
+**Write a function that accepts two lists and store elements of list_1 as keys and list_2 as values.**
 
 ```python
-def find_primes(n):
-    return primes_non_primes
+def convert_to_dict(list_1, list_2):
+    return dictionary
 ```
 
 ```python
->>> find_primes(5)
-{1: True, 2: True, 3: True, 4: False, 5: True}
+>>> convert_to_dict([1, 2, 3], ['one', 'two', 'three'])
+{1: 'one', 2: 'two', 3: 'three'}
 ```
 
 ### Problem 6
 
-**Write a function to check whether the number has perfect square root or not.**
+**Write a function to read text from file**
 
 ```python
-def check_perfect_square_root(n):
-    return perfect_square_root
+def read_file(filename):
+    return 0
 ```
 
 ```python
->>> check_perfect_square_root(5)
-{1: True, 2: False, 3: False, 4: True, 5: False}
+>>> read_file('poem.txt')
+Twinkle Twinkle little stars.
+How are wonder what we are.
 ```
 
 ### Problem 7
 
-**Write a function to perform infix to postfix**
+**Write a function to find palindrome without using `reversed()` or `[::-1]`**
 
 ```python
-def infix_to_postfix(expr):
-    return postfix_expr
+def find_palindrome(element):
+    return bool
 ```
 
 ```python
->>> infix_to_postfix('1+2+(3+4)')
-12+34++
+>>> find_palindrome('121')
+True
+>>>
+>>> find_palindrome('132')
+False
 ```
 
 ### Problem 8
 
-**Write a function to generate random data**
+**Write a function to convert list of lists to list of dicts**
 
 ```python
-def generate_random_data():
-    return random_data_list
+def list_of_dicts():
+    return dict_list
+```
+
+```python
+>>> data = [['John', 23], ['Maria', 22]]
+[{'name': 'John', 'age': 23}, {'name': 'Maria', 'age': 22}]
 ```
 
 ### Problem 9
 
-**Write a function to swap key value pair if key is string using dict comprehension**
+**Write a python function to find maximum of three numbers without using `max()`**
 
 ```python
-def swap_dict(data):
-    return swapped_dict
+def find_max(a, b, c):
+    return max_number
 ```
 
 ```python
->>> swap_dict({'one': 1, 2: 'two'})
-{1: 'one', 2:, 'two'}
+>>> find_max(1, 2, 3)
+3
 ```
 
 ### Problem 10
 
-**Write a generator function to generate fibonacci number**
+**Write a Python program to count the frequency of each element in a list.**
 
 ```python
-def fibonacci():
-    # iterator
-        yield fibonacci_number
+def count_frequecy(list):
+    return frequency_dict
+```
+
+```python
+>>> data = ['name', 'roll_no', 'age', 'name']
+>>> count_frequency(data)
+{'name': 2, 'roll_no': 1, 'age': 1}
 ```

@@ -17,16 +17,11 @@ True
 ```
 
 ### Problem 2
-**Write a function to generate number into words**
+**Write a function that finds all the prime numbers uptill using list comrehension.**
 
 ```python
-def number_to_word(number):
-    return word
-```
-
-```python
->>> number(10001)
-Ten Thousand and one
+def find_primes_with_list_comprehend(n):
+    return primes
 ```
 
 
@@ -35,76 +30,107 @@ Ten Thousand and one
 **Write a function to find recurring number**
 
 ```python
-def recurring_number(n):
-    return recurrence
+def find_common_elements(list1, list2):
+    return common_elements
 ```
 
 ```python
->>> recurring_number(1/7)
-142857
+>>> find_common_elements([1,2,3], [2,3,4])
+[2,3]
 ```
 
 ### Problem 4
 
-**Write a function to find the largest product of n numbers inside a grid horizontally, vertically, diagonally.**
+**Write a function to flatten a list.**
+
+```python
+def flatten_list(list):
+    return flattened_list
+```
+
+```python
+>>> flatten_list([1, [2, 3]])
+[1, 2, 3]
+```
 
 ### Problem 5
 
-**Write a function to find quadratic primes**
+**Write a function to convert dict of lists into list of dicts**
+
+```python
+def list_of_dicts(data):
+    return dict_list
+```
+
+```python
+>>> list_of_dicts({'name': ['john', 'maria'], 'age': [22, 24]})
+[{'name': 'john', 'age': 22}, {'name': 'maria', 'age': 24}]
+```
 
 ### Problem 6
 
-**Write a function to perform inner join operation**
+**Write a function to swap key value pair if key is string using dict comprehension**
 
 ```python
-def inner_join(file1, file2):
-    return inner_join_operation
+def swap_dict(data):
+    return swapped_dict
+```
+
+```python
+>>> swap_dict({'one': 1, 2: 'two'})
+{1: 'one', 2:, 'two'}
 ```
 
 ### Problem 7
 
-**Write a function to perform outer join operation**
+**Write a function to read text from file**
 
 ```python
-def outer_join(file1, file2):
-    return outer_join_operation
+def read_file_starts_with_t(filename):
+    return 0
+```
+
+```python
+>>> read_file_starts_with_t('poem.txt')
+Twinkle Twinkle little stars.
 ```
 
 ### Problem 8
 
-**Write a function generates a dictionary containing phone number as key and all possible combination of words of the character on phone number.**
+**Write a lambda function to add successive numbers.**
 
 ```python
-def combination_words_for_numbers(phone_number):
-    return combinations
+summation = lambda #logic
 ```
 
 ```python
->>> combination_words_for_numbers('12')
-['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
+>>> summation(1)
+1
+>>> summation(2)
+3
+>>> summation(3)
+6
 ```
 
 ### Problem 9
 
-**Write a function to print the data as per category with each month of each year**
+**Write a function to find factorial of a number using recursion.**
 
 ```python
-def print_report(data):
-    return category_wise_data
+def calculate_factorial(n):
+    return factorial
 ```
 
 ```python
->>> print_report(data)
-Category  Month1  Month2
-Food      5000    7000
-Rent      10000   10000
+>>> calculate_factorial(5)
+120
 ```
 
 ### Problem 10
 
-**Write a function that find the sum of all the numbers that can be written as the sum of nth powers of their digits.**
+**Write a generator function to generate fibonacci number**
 
 ```python
->>> find_digit_powers(4)
-[1634, 8208, 9474]
+def fibonacci():
+    # logic
 ```
